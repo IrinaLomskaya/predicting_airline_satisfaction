@@ -218,3 +218,26 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Локальное окружение и кеши
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+
+# Данные
+/data/
+
+# Секреты
+.env
+.env.*
+!.env.example
+kaggle.json
+
+# Локальные результаты MLflow
+/mlruns/
+/mlartifacts/
+/mlflow.db
+/mlflow.db-*
